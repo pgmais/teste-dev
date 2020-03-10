@@ -1,6 +1,6 @@
 # Teste back-end
 
-Baseado nas regras propostas, a aplicação deverá retornar quais mensagens estão aptas para envio(que não foram bloqueadas) e seu respectivo broker.
+Baseado nas regras propostas, a aplicação deverá retornar as mensagens aptas para envio(que não foram bloqueadas) e seu respectivo broker.
 
 A entrada será dada com:
 
