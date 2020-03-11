@@ -31,7 +31,7 @@ d81b2696-8b62-4b8b-af82-586ce0875ebc;1
 * mensagens com telefone inválido deverão ser bloqueadas(DDD+NUMERO);
 * mensagens que estão na _blacklist_ deverão ser bloqueadas; _(ver blacklist)_
 * mensagens para o estado de São Paulo deverão ser bloqueadas;
-* mensagens criadas após as 19:59:59 deverão ser bloqueadas;
+* mensagens com agendamento após as 19:59:59 deverão ser bloqueadas;
 * as mensagens com mais de 140 caracteres deverão ser bloqueadas;
 * caso possua mais de uma mensagem para o mesmo destino, apenas a mensagem apta com o menor horário deve ser considerada;
 * o id_broker será definido conforme a operadora; _(ver broker x operadora)_
