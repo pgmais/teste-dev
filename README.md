@@ -1,8 +1,8 @@
-# Teste back-end
+# Teste dev
 
-Baseado nas regras propostas, a aplicação deverá retornar as mensagens aptas para envio(que não foram bloqueadas) e seu respectivo broker.
+Baseado nas regras propostas a aplicação deverá ler um arquivo e retornar as mensagens aptas para envio(que não foram bloqueadas) e seu respectivo broker.
 
-A entrada será dada com:
+O arquivo de entrada tem o seguinte layout:
 
 _IDMENSAGEM;DDD;CELULAR;OPERADORA;HORARIO_ENVIO;MENSAGEM_ 
 
@@ -14,7 +14,8 @@ e7b87f43-9aa8-414b-9cec-f28e653ac25e;34;990171682;VIVO;18:35:20;dui luctus rutru
 c04096fe-2878-4485-886b-4a68a259bac5;43;940513739;NEXTEL;14:54:16;nibh fusce lacus purus aliquet at feugiat
 d81b2696-8b62-4b8b-af82-586ce0875ebc;21;983522711;TIM;16:42:48;sit amet eros suspendisse accumsan tortor quis turpis sed ante
 ```
-A saída esperada será:
+
+Esperamos que o retorno seja apresentado seguindo o layout abaixo:
 
 _IDMENSAGEM;IDBROKER_
 
@@ -47,6 +48,7 @@ Cada broker será responsável pelo envio de algumas operadoras, representado pe
 |   3       |  NEXTEL    |
 
 ### Consulta de blacklist
+
 ```
 https://front-test-pg.herokuapp.com/blacklist/:phone
 ```
@@ -75,9 +77,10 @@ Exemplos:
 * Clean code
 
 ## O que esperamos?
-* Testes unitários
-* Documentação do código
-* README do projeto
-	* Instruções de como usar;
-	* Instruções de como testar;
-	* Descrição do que utilizou para desenvolver _(linguagem, SO, editor de texto/IDE, libs e etc)_
+
+* Testes unitários;
+* Documentação do código;
+* README do projeto;
+* Instruções de como executar;
+* Instruções de como testar;
+* Descrição do que utilizou para desenvolver _(linguagem, SO, editor de texto/IDE, libs e etc)_.
