@@ -52,6 +52,9 @@ Cada broker será responsável pelo envio de algumas operadoras, representado pe
 ```
 https://front-test-pg.herokuapp.com/blacklist/:phone
 ```
+Possíveis retornos:
+* Se retornar 200, está na blacklist.
+* Se retornar 404 não está na blacklist.
 
 ### Número de telefone celular válido
 
